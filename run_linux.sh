@@ -13,4 +13,4 @@ bundle install --deployment
 
 bundle exec ruby scraper.rb
 
-curl -F file=@ss.png -F channels=$SLACK_CHANNEL -F token=$SLACK_TOKEN https://slack.com/api/files.upload
+curl -F file=@ss.png -F channels=$SLACK_CHANNEL -F token=$SLACK_TOKEN -F initial_comment=$COMMENT https://slack.com/api/files.upload

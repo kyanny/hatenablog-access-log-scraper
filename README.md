@@ -5,3 +5,4 @@ Required ENVs:
 - `PASSWORD`
 - `SLACK_TOKEN`
 - `SLACK_CHANNEL`
+- `COMMENT`
