@@ -1,0 +1,7 @@
+Required ENVs:
+
+- `HATENA_ID`
+- `BLOG_DOMAIN`
+- `PASSWORD`
+- `SLACK_TOKEN`
+- `SLACK_CHANNEL`
