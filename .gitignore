@@ -1,0 +1,4 @@
+.bundle
+phantomjs*
+*.png
+vendor

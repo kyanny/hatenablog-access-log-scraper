@@ -15,8 +15,6 @@ fill_in 'password', with: ENV.fetch('PASSWORD')
 first('.submit-button').click
 loop until has_css?('#access-counts-tabs')
 
-Dir.chdir(Dir.tmpdir) do
-  file = "ss-#{Time.now.to_i}.png"
-  save_screenshot(file, selector: '#access-counts-tabs')
-  puts "Save screenshot to #{Dir.pwd}/#{file}"
-end
+file = 'ss.png'
+save_screenshot(file, selector: '#access-counts-tabs')
+puts "Save screenshot to ss.png"
